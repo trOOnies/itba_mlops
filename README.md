@@ -1,2 +1,2 @@
-# itba_mlops
- Proyecto de fecha 2023-10-24
+# Curso de ITBA MLOps 2023 (Q4)
+Autor/Alumno: Scasso, Facundo M.
