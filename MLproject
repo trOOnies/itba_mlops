@@ -1,0 +1,16 @@
+name: EDA RS
+
+#python_env: python_env.yaml
+# or
+conda_env: files/config/conda_env.yaml
+# or
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  main:
+    command: "python EDA.py"
+  baselines:
+    parameters:
+      p: {type: float, default: 0.5}
+    command: "python baselines.py -p {p}"

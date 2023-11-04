@@ -1,0 +1,12 @@
+name: itba-mlops-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.11
+  - pip
+  - pip:
+    - mlflow
+    - scikit-learn
+    - pandas
+    - numpy
+    - matplotlib
