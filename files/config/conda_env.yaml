@@ -6,6 +6,9 @@ dependencies:
   - pip
   - pip:
     - mlflow
+    - dagster
+    - dagster-webserver
+    - dbt-postgres
     - scikit-learn
     - pandas
     - numpy
