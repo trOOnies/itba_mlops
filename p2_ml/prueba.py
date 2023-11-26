@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from baseline_model import RS_baseline_usr_mov
+from p2_ml.model_src.baseline_models import RS_baseline_usr_mov
 
 df_scores_train = pd.read_csv("data/scores.csv")
 

@@ -1,7 +1,7 @@
+import argparse
 import pandas as pd
 import mlflow
-import argparse
-from baseline_model import RS_baseline_usr_mov
+from p2_ml.model_src.baseline_models import RS_baseline_usr_mov
 
 mlflow.set_experiment("baselines")
 
